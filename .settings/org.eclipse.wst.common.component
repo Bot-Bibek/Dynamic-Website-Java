@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="Emart">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <dependent-module archiveName="angus-activation-2.0.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Rojal Gurung/Downloads/angus-activation-2.0.2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="mysql-connector-j-8.3.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Rojal Gurung/Downloads/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="jakarta.activation-api-2.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Rojal Gurung/Downloads/E-Commerce-Website-master (2)/E-Commerce-Website-master/src/main/webapp/WEB-INF/lib/jakarta.activation-api-2.1.2.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                        
+        
+        <property name="java-output-path" value="/Emart/build/classes"/>
+        <property name="context-root" value="Emart"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>
